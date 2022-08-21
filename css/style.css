@@ -367,6 +367,8 @@ footer{
  
 @media(max-width: 830px){
 
+    
+
     .sct-main {
         display: block; 
     }
@@ -554,6 +556,9 @@ footer{
 }
 
 @media(max-width: 550px){
+    .img-center-recent img {
+        width: 98%;
+    }
 
     .recent .box-tex h3, .box-top-news h3 {
         line-height: 1.3rem;
