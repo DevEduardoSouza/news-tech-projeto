@@ -10,6 +10,7 @@
 }
 html,body{
     font-family: var(--fontMain);
+    overflow-x: hidden;
 }
 header{
     width: 100%;
@@ -545,11 +546,25 @@ footer{
         width: 228px;
         height: 167px;
     }
+    .sobre nav, .politicas nav {
+        padding-left: 42px;
+    }
 
     
 }
 
 @media(max-width: 550px){
+
+    .recent .box-tex h3, .box-top-news h3 {
+        line-height: 1.3rem;
+        font-size: 0.8rem;
+    }
+    .box {
+        margin-bottom: 18px; 
+    }
+    .recent span {
+        margin-top: 2px;
+    }
     form{
         display: none;
     }
