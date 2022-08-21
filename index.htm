@@ -333,8 +333,11 @@
         <section class="form">
             <h3 class="title-fotter">se inscreva</h3>
             <p>Assine nosso boletim informativo para obter as últimas notícias, serviços e promoções. Vamos nos manter atualizados!</p>
-            <form action="" method="post">
-                <input type="text" required placeholder="Nome">
+            <form action="https://api.staticforms.xyz/submit" method="post">
+                <input type="hidden" name="accessKey" value="51692534-0a84-4bfb-999d-041fc01a801a">
+                <input type="hidden" name="redirectTo" value="https://eduardo074.github.io/tech/">
+
+                <input type="text" name="name" required placeholder="Nome">
                 <input type="email" name="email" id="email" required placeholder="E-mail">
                 <input id="btn-send" type="submit">
             </form>
