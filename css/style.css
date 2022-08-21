@@ -556,6 +556,9 @@ footer{
 }
 
 @media(max-width: 550px){
+    .form form input {
+        width: 99%;
+    }
     .img-center-recent img {
         width: 98%;
     }
