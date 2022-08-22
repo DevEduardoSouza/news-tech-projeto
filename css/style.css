@@ -21,6 +21,7 @@ header{
 }
 .logo img{
     width: 70px;
+    height: 70px;
 }
 nav{
     max-width: 1200px;
@@ -366,6 +367,7 @@ footer{
 .icone-fotter li a img{
     background-color:#0b2cc2; 
     width: 20px;
+    height: 20px;
 }
 .icone-fotter li a img:hover{
     width: 21px; 
