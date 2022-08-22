@@ -42,8 +42,8 @@ header nav ul li a:hover{
     font-weight: 700;
 }
 #icone li a img{
-   width: 20px;
-   height: 20px;
+    width: 20px;
+    height: 20px;
 }
 .header-navbar{
     top: 0;
@@ -97,7 +97,7 @@ form input{
 }
 /**/
 .slides{
-    background-color: red;
+    background-color: gray;
     max-width: 1500px;
     height: 500px;
     margin: auto;
@@ -109,7 +109,7 @@ form input{
 .slider-larger{
     max-width: 900px;
     width: 100%;
-    background-color: black;
+    background-color:gray;
     cursor: pointer;
 }
 .slider-larger img{
@@ -187,11 +187,11 @@ main, footer{
     color: rgba(0, 0, 0, 0.777);
 }
 .box{
-   width: 400px;
-   height: auto;
-   margin-bottom:50px ;
-   color: black;
-   display: flex; 
+    width: 400px;
+    height: auto;
+    margin-bottom:50px ;
+    color: black;
+    display: flex; 
 }
 .recent .box-img img, .box-top-news img{
     width: 150px;
@@ -202,8 +202,8 @@ main, footer{
     padding-left: 10px;
 }
 .recent  .box-tex h3, .box-top-news h3{
-     line-height: 1.4rem;
-     font-weight: 900;
+    line-height: 1.4rem;
+    font-weight: 900;
 }
 .recent .box-tex a, .info li a, .title-top {
     text-decoration: none;
@@ -316,11 +316,11 @@ footer{
     max-width: 400px;
 }
 .presentation p{
-   font-size: 0.8rem;
-   line-height: 1.5rem;
-   font-weight: 300;
-   color: black;
-   margin: 10px;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    font-weight: 300;
+    color: black;
+    margin: 10px;
 }
 #logo-fotter{
     width: 80px;
@@ -589,6 +589,9 @@ footer{
     }
     .box {
         margin-bottom: 18px; 
+    }
+    .recent .box-tex {
+        padding: 0px 10px;
     }
     .recent span {
         margin-top: 2px;
