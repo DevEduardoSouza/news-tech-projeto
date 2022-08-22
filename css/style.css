@@ -38,8 +38,8 @@ header nav ul li a{
     color: white;
 }
 header nav ul li a:hover{
-    color: rgb(2, 2, 29);
-    transition: .5s;
+    color: black;
+    font-weight: 700;
 }
 #icone li a img{
    width: 20px;
