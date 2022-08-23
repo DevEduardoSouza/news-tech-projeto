@@ -206,7 +206,7 @@ main, footer{
     line-height: 1.4rem;
     font-weight: 900;
 }
-.recent .box-tex a, .info li a, .title-top {
+.recent .box-tex a, .info li a, .title-top{
     text-decoration: none;
     color: rgba(0, 0, 0, 0.692);
     font-size: 0.9rem;
@@ -445,20 +445,30 @@ footer{
     font-size: 1.5rem;
     font-weight: 700;
     padding: 20px 0;
+    
 }
 
 .latest-tec{
     border: 1px solid red;
     height:auto;
     padding: 10px;
-    
+    display: flex;
+    justify-content: space-between;
 }
 .news{
     max-width: 900px;
     height: 1000px;
-    background-color: gray; 
     margin-top: 30px;
     overflow-y:auto;
+}
+.news::-webkit-scrollbar {
+    background-color: #2828305b;
+    width: 10px;
+}
+.news::-webkit-scrollbar-thumb {
+    background-color: #0b2cc2;
+    border-radius: 10px;
+    height: 60px;
 }
 .conteiner-box-latest{
     display: flex;
@@ -466,20 +476,35 @@ footer{
 .conteiner-box-latest-img{
     max-width: 290px;
     height: 190px;
+    cursor: pointer;
 }
 .conteiner-box-latest-img img{
     width: 100%;
+    filter: brightness(70%);
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
 }
+.conteiner-box-latest-img img:hover{
+    filter: brightness(50%);
+}
+
 .category{
     color: #0b2cc2;
     display: block;
     font-size: 0.7rem;
     margin-bottom: 10px;
 }
-.conteiner-box-latest h2{
+.conteiner-box-latest a {
+    text-decoration: none;
+}
+.conteiner-box-latest a h2, .social h2{
     font-size: 1.2rem;
     font-weight: 700;
     line-height: 1.5rem;
+    color: rgba(0, 0, 0, 0.798);
+}
+.conteiner-box-latest a h2:hover{
+   color: #0b2cc2;
 }
 .author-date{
     display: block;
@@ -496,6 +521,44 @@ footer{
   border-color: rgba(0, 0, 0, 0.123);
   margin-top: 20px;
 }
+
+.news-2{
+    width: 350px;
+    height: 1000px;
+    margin-left: 10px;
+}
+
+.social{
+    margin-top: 30px;
+}
+
+.social nav ul li{
+    border: 1px solid rgba(0, 0, 0, 0.159);
+    width: 320px;
+    margin-top: 10px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.social nav ul li:hover{
+    background-color: rgba(128, 128, 128, 0.118);
+}
+.social nav ul li span{
+    line-height: 10px;
+}
+.social nav ul li span img{
+    width: 20px;
+}
+.social nav ul a{
+    text-decoration: none;
+    color: black;
+}
+
 
 @media(max-width: 1268px){
 
