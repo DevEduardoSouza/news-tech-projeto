@@ -450,7 +450,6 @@ footer{
 }
 
 .latest-tec{
-    border: 1px solid red;
     height:auto;
     padding: 10px;
     display: flex;
@@ -621,7 +620,6 @@ footer{
     .imgs{
         width: 397.5px;
     }
-
      .latest-tec {
         display: block;
         max-width: 828px;
@@ -634,10 +632,9 @@ footer{
         margin: auto;
     }
     .news-2 {
-        width: 94%;
+        width: 97%;
         height: auto;
         margin-left: 10px;
-        
     }
     .popular-posts{
         margin: auto;
@@ -646,8 +643,44 @@ footer{
         display: block;
         max-width: 750px;
         margin: auto;
-        border: 1px solid;
-}
+    }
+    .post-img {
+        max-width: 747px;
+        height: 300px;
+    }
+    .post-img img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        max-width: 747px;
+    }
+    .post-text{
+        margin-top: 10px;
+    }
+    .post-img-s{
+        max-width: 747px;
+        height: 300px;
+    }
+    .post-img-s img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        max-width: 747px;
+     }
+
+    .title-secun {
+        font-size: 1.7rem;
+        font-weight: 700;
+        color: rgba(0, 0, 0, 0.745);
+    }
+    .post-text-s{
+        max-width: 747px;
+        height: auto;
+    }
+    .s-post{
+        margin-bottom: 20px;
+    }
+        
 
 }
 
@@ -895,6 +928,18 @@ footer{
  
 
 @media(max-width: 550px){
+    .post-img-s, .post-img{
+        height: 200px;
+        max-width: 447px;
+    }
+    .post-img-s img, .post-img img {
+        height: 200px;
+        max-width: 447px;
+    }
+
+    .title-secun, .popular-posts a > .h3-f{
+        font-size: 1.0rem;
+    }
     .form form input {
         width: 99%;
     }
@@ -933,6 +978,15 @@ footer{
     .conteiner-trending img {
         width: 100%;
     }
+    .social nav ul li {
+        max-width: 320px;
+        width: 100%;
+    }
+    .social nav ul li span {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    
  
 }
 
