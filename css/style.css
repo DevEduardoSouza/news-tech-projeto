@@ -1003,7 +1003,21 @@ footer{
     .imgs {
         width: 143.6px;
     }
+    .popular-posts h2 {
+        font-size: 1.2rem;
+        
+    }
 
+}
+
+@media(max-width: 350px){
+    .imgs {
+        width: 299.6px;
+    }
+    .title-slides-next {
+        line-height: 1.5rem;
+        font-size: 1.0rem;
+    }
 }
 
 
