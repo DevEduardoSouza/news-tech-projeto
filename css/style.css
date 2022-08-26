@@ -118,12 +118,12 @@ form input{
     height: 100%;
     object-fit: cover;
 }
-.slides img, .img-center-recent img, .conteiner-trending img, .conteiner-slides-next img{
+.slides img, .img-center-recent img, .conteiner-trending img, .conteiner-slides-next img, .post-img-s img, .post-img img{
     filter: brightness(70%);
     -webkit-transition: all 0.7s ease;
     transition: all 0.7s ease;
 }
-.slides img:hover, .img-center-recent img:hover, .conteiner-trending img:hover, .conteiner-slides-next img:hover{
+.slides img:hover, .img-center-recent img:hover, .conteiner-trending img:hover, .conteiner-slides-next img:hover, .post-img-s img:hover, .post-img img:hover{
     cursor: pointer;
     filter: brightness(40%);
 }
