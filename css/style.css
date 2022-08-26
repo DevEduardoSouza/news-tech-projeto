@@ -460,7 +460,11 @@ footer{
     height: 1000px;
     margin-top: 30px;
     overflow-y:auto;
+    border-top: 1px solid rgba(0, 0, 0, 0.353);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.353);
 }
+
+
 .news::-webkit-scrollbar {
     background-color: #2828305b;
     width: 10px;
@@ -893,8 +897,6 @@ footer{
     }
     .news {
         padding-right: 10px;
-        border-top: 1px solid rgba(0, 0, 0, 0.253);
-        border-bottom: 1px solid rgba(0, 0, 0, 0.253);
     }
     .conteiner-box-latest-text {
         margin-left: 0px; 
