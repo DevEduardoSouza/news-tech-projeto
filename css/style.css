@@ -61,10 +61,12 @@ header nav ul li a:hover{
     padding-left: 12px;
     font-size: .9rem;
     font-weight: 600;
+    
 }
 .navbar .header-navbar nav ul li a{
     text-decoration: none;
     color: black;
+  
 }
 .navbar .header-navbar nav ul li a:hover{
     color:var(--colorMain);
