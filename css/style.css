@@ -762,6 +762,8 @@ footer{
     header{
         display: none;
     }
+
+    /*  */
     #hamburger{
         display: block;
         width: 20px;
@@ -839,6 +841,8 @@ footer{
         position: absolute;
         left: 25%;
     } */
+
+    
     
     nav{
         padding: 0px;
