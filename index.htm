@@ -44,6 +44,11 @@
                         <img src="img/icones/icons8-gmail.svg" alt="Icone gmail">
                     </a>
                 </li>
+
+                <li class="user">
+                    <img src="img/icones/user-icon.png" alt="">
+                </li>
+            
             </ul>
         </nav>
     </header>
@@ -67,9 +72,129 @@
                     <input type="search" name="busca" id="busca">
                     <button class="btn-buscar">BUSCAR</button>
                 </form>
+                
             </nav>
         </div>
     </div>
+
+    <!--  -->
+    <div class="fundo">
+	</div>
+    <section class="user-cadastro">
+		<div class="img_one">
+			<img src="img/icones/DD_BR_produtos_tecnologicos_3d_ui_ux_99fb3c2c-2396-44ce-b062-ddd4e8fa98d1.png" alt="">
+		</div>
+		<div class="cadastro">
+			<div class="conteudoLogin">
+
+                <div class="loginAuto">
+
+                    <div class="text">
+                        <p>Bem vindo de volta</p>
+                        <h1>Faça login na sua conta</h1>
+                    </div>
+					<div class="btn_sair">
+						x
+					</div>
+
+                    <form class="formLogin" action="#" method="post">
+
+                        <label>
+                            E-mail:
+							<br>
+                            <input class="input_login" type="email" name="email" id="emailInput" required autocomplete="email">
+                        </label>
+						<br>
+
+                        <label>
+                            Senha:
+							<br>
+                            <input class="input_login" type="password" name="senha" required autocomplete="current-password">
+                        </label>
+
+                        <div class="acoes">
+                            <div class="check_login">
+                                <label>
+                                    <input type="checkbox" >
+                                    Lembre de mim 
+                                </label>
+                                
+                            </div>
+
+                            <a href="#">Esqueceu sua senha? </a>
+                        </div>
+
+                        <button class="btnFormLogin" class="btn_1">Entrar</button>
+
+                        <div class="cadastrar">
+                            
+                                <button class="btnFormLogin" class="btn_2"> <img class="icone_g" src="img/icones/iconfinder_Google_1298745 1.svg" alt="Icone do goolge">Ou faça login com o Google  </button>
+                           
+                        </div>
+                        
+                        
+                        <div class="cadastre_link">
+                            <p>Não tem uma conta? <a href="#" class="cadastroT">Cadastre-se</a></p>
+                        </div>
+
+                    </form>
+
+                    <!-- Cadastro -->
+                    <form class="formCadastro" >
+
+                        <label>
+                            Nome:
+							<br>
+                            <input class="input_login" type="text" name="text" id="nameC" required autocomplete="username">
+                        </label>
+
+                        <label>
+                            E-mail:
+							<br>
+                            <input class="input_login" type="email" name="email" id="emailC" required autocomplete="email">
+                        </label>
+						<br>
+
+                        <label>
+                            Senha:
+							<br>
+                            <input class="input_login" type="password" name="senha" id="senhaC" required autocomplete="current-password">
+                        </label>
+
+                        <div class="acoes">
+                            <div class="check_login">
+                                <label>
+                                    <input type="checkbox" >
+                                    Lembre de mim 
+                                </label>
+                                
+                            </div>
+
+                            <a href="#">Esqueceu sua senha? </a>
+                        </div>
+
+                        <button class="btnFormLogin" class="btn_1">Cadastrar</button>
+
+                        <div class="cadastrar">
+                            
+                                <button class="btnFormLogin" class="btn_2"> <img class="icone_g" src="img/icones/iconfinder_Google_1298745 1.svg" alt="Icone do goolge">Ou faça login com o Google  </button>
+                            
+                        </div>
+                        
+                        
+                        <div class="cadastre_link">
+                            <p>Já tem uma conta? <a href="#" class="loginT">Login</a></p>
+                        </div>
+
+                    </form>
+                    <!--FIM Cadastro -->
+
+                </div>
+
+            </div>
+		</div>
+	</section>
+    <!--  -->
 
     <div class="slides">
         <div class="slider-larger" >
@@ -361,10 +486,10 @@
                 </ul>
             </nav>
         </section>
-        <section class="form" id="contato">
+        <section class="formEmail" id="contato">
             <h3 class="title-fotter">se inscreva</h3>
             <p>Assine nosso boletim informativo para obter as últimas notícias, serviços e promoções. Vamos nos manter atualizados!</p>
-            <form action="https://api.staticforms.xyz/submit" method="post">
+            <form class="formE" action="https://api.staticforms.xyz/submit" method="post">
                 <input type="hidden" name="accessKey" value="51692534-0a84-4bfb-999d-041fc01a801a">
                 <input type="hidden" name="redirectTo" value="https://eduardo074.github.io/tech/">
 
