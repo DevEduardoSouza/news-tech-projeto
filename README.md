@@ -3,8 +3,7 @@
 Este repositório contém um projeto de um site de notícias de tecnologia desenvolvido utilizando HTML, CSS e JavaScript. O objetivo deste projeto é testar e aprimorar meus conhecimentos nessas tecnologias, proporcionando uma experiência de navegação intuitiva para os usuários interessados em notícias relacionadas à tecnologia.
 
 ![Imagem do site](img/techFala_site.png)
-<a href="https://tech-fala-news.netlify.app">Link</a>
-- Está em desenvolvimento
+- Está em desenvolvimento : <a href="https://tech-fala-news.netlify.app">Link</a>
 
 ## Funcionalidades
 
